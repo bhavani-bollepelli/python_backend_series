@@ -1,0 +1,47 @@
+#Python to Backend Series
+#week--2
+##Day--6
+###program1-->Function without parameters
+
+def greet():
+    print("Hello, Welcome to Python Backend Journey")
+greet()
+
+
+###program2-->Function with parameter
+
+def greet(name):
+    print("Hello", name)
+
+greet("bhavani bollepelli")
+
+
+###program3-->Function with return value
+
+def add(a, b):
+    return a + b
+result = add(5, 3)
+print("Sum =", result)
+
+
+###program4-->Function with default parameter
+
+def greet(name="Developer"):
+    print("Hello", name)
+
+greet()
+greet("Suresh")
+
+
+###program5-->Function returning multiple values
+
+def calculations(a, b):
+    sum = a + b
+    product = a * b
+    return sum, product
+
+a, b = calculations(4, 5)
+
+print("Sum =", a)
+print("Product =", b)
+
