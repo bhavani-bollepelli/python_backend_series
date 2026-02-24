@@ -45,3 +45,39 @@ a, b = calculations(4, 5)
 print("Sum =", a)
 print("Product =", b)
 
+
+##day--7
+##program-->Student Marks Analyzer
+
+def calculate_result(marks):
+    if marks >= 75:
+        return "Distinction"
+    elif marks >= 60:
+        return "First Class"
+    elif marks >= 40:
+        return "Pass"
+    else:
+        return "Fail"
+
+n = int(input("Enter the number of students: "))
+
+pass_count = 0
+fail_count = 0
+
+for i in range(n):
+    marks = int(input(f"Enter marks for student {i+1}: "))
+    result = calculate_result(marks)
+    print("Result:", result)
+
+    if result == "Fail":
+        fail_count += 1
+    else:
+        pass_count += 1
+
+print("\n--- Summary ---")
+print("Total Students:", n)
+print("Pass:", pass_count)
+print("Fail:", fail_count)
+
+
+
