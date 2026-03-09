@@ -21,4 +21,21 @@ Each week focuses on specific core concepts:
 - Mutable vs Immutable
 - Control Flow (if-else, loops)
 - Mini Project
+
+### Week 02 - functions
+- function without parameters
+- Function with parameter
+- Function with return value
+- Function with default parameter
+- Function returning multiple values
+- Student Marks Analyzer
+
+### Week 03 - Recursion
+- factorial
+- Fibonacci
+- Sum of natural numbers
+- Reverse String
+
+### Week 04 - Mini Projects
+- Shopping Cart System
 stay tune...
