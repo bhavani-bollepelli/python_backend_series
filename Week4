@@ -37,3 +37,29 @@ print("total price of cart is :",total)
 print("total discount:",discount)
 
 print("final price is :",final_price)
+
+
+
+##Day-10-->Salary Calculator
+
+def calculate_hra(basic):
+    HRA=basic*20/100
+    return HRA
+def calculate_pf(basic):
+    PF=basic*12/100
+    return PF
+def calculate_net(basic):
+
+    HRA=calculate_hra(basic)
+    PF=calculate_pf(basic)
+    Net_Salary=basic+HRA-PF
+    return Net_Salary
+basic=int(input("enter basic salary:"))
+
+net=calculate_net(basic)
+
+    
+print("basic salary:",basic)
+print("HRA:",calculate_hra(basic))
+print("PF:",calculate_pf(basic))
+print("net salary:",net)
