@@ -39,4 +39,5 @@ Each week focuses on specific core concepts:
 
 ### Week 04 - Mini Projects
 - Shopping Cart System
+- Salary Calculator
 stay tune...
